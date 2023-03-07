@@ -8,4 +8,5 @@ router.get('/', verifyToken, getPostByUser)
 router.get('/:id', getAPost)
 router.put('/:postId', verifyToken, updatePost)
 
+
 export default router
